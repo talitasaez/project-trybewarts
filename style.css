@@ -1,6 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(50, 167, 145);
+  padding: 10px;
+}
+
+.trybewarts-header-logo {
+  height: 80px;
 }
 
 .trybewarts-login {
@@ -15,6 +27,7 @@
 
 main {
   display: flex;
+  justify-content: center;
 }
 
 #trybewarts-forms-logo {
@@ -24,4 +37,9 @@ main {
 #label-family {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
